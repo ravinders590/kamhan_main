@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+*{ margin:0; padding:0;}
+body{ background:url(_images/bg1.jpg) repeat center center fixed;}
+.clear{ clear:both}
+#top_links{ margin:0 auto; max-width:1100px; display:block; height:25px; color:#545454; font-family: New Century Schoolbook, serif;
+	font-weight:normal;
+	font-size:14px; line-height:25px;}
+#top_links_left{ float:left; padding-left:5px;}
+#top_links_right{ float:right; padding-right:5px;}
+#top_links_right a{ text-decoration:none; color:#950000}
+#top_links_right a:hover{ color:#4e4e4e}
+.button{ background:#950000; color:#CCCCCC; border:none; cursor:pointer; border:1px solid #7c0000; padding-left:8px; padding-right:8px; padding-top:2px; padding-bottom:2px;}
+.button:hover{ background:#f3f3f3; color:#950000}
+header{ margin:0 auto; max-width:1100px;}
+#logo a{ width:396px; height:40px; display:block; background: url(_images/logo.png) no-repeat center center #e8e8e8; float:left;}
+#navigation{ margin-left:395px; display:block}
+/*Strip the ul of padding and list styling*/
+#navigation ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	z-index:9999;
+	background:#4e4e4e;
+}
+/*Create a horizontal list with spacing*/
+#navigation li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+/*Style for menu links*/
+#navigation li a {
+	display:block;
+	min-width:140px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	color: #fff;
+	background: #808080;
+	text-decoration: none;
+}
+/*Hover state for top level links*/
+#navigation li:hover a {
+	background: #950000;
+}
+/*Style for dropdown links*/
+#navigation li:hover ul a {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 30px;
+	line-height: 30px;
+}
+/*Hover state for dropdown links*/
+#navigation li:hover ul a:hover {
+	background: #950000;
+	color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+#navigation li ul {
+	display: none;
+}
+/*Make dropdown links vertical*/
+#navigation li ul li {
+	display: block;
+	float: none;
+}
+/*Prevent text wrapping*/
+#navigation li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+	text-align:left;
+}
+/*Display the dropdown on hover*/
+#navigation ul li a:hover + .hidden, #navigation .hidden:hover {
+	display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size:15px;
+	text-decoration: none;
+	color: #fff;
+	background: #19c589;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+#main_container{max-width:1100px; margin:0 auto; background:url(_images/trans.png); height:500px; display:block; font-family:Verdana, Arial, Helvetica, sans-serif; color:#666666; font-size:12px; padding-top:10px; padding-left:10px;}
+#main_container h2{ border-bottom:1px solid #e1e1e1; line-height:25px; margin-bottom:10px; color:#950000}
+#main_container h1{ font-size:12px; padding-left:1px; color:#950000 }
+#main_container span{ font-size:10px;}
+
+#left_content{ float:left; width:760px; }
+
+#sidebar{ width:300px; height:360px; display:block; background:url(_images/trans20.png); float:right; margin-right:10px;}
+#sidebar h1{ font-size:12px; padding-left:1px; color:#950000; font-family: New Century Schoolbook, serif; font-size:15px;}
+#sidebar p{ padding-left:3px; font-family: New Century Schoolbook, serif; font-size:14px;}
+#sidebar li{ list-style:none}
+
+.video_table tr td img{ border:1px solid #CCCCCC}
+.video_table tr td a{ margin-bottom:5px; line-height:20px; text-decoration:none; color:#950000}
+.video_table tr td a:hover{ color:#666666}
+
+
+.listing li{ margin-left:40px; color:#950000;  font-family: New Century Schoolbook, serif; font-size:14px}
+.career_text{ padding:2px; width:180px; color:#666666}
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+	#logo a{ width:100%;}
+	#navigation{ margin-left:0px;}
+	#top_links_left{ text-align:center; width:100%;}
+	#top_links_right{ text-align:center; width:100%;}
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+	#left_content{ float:none; width:100%;}
+	#sidebar{ float:none; width:100%;}
+	#copyright{ text-align:center; width:100%;}
+	#xpedient{ text-align:center; width:100%;}
+}
+
+footer{ margin:0 auto; max-width:1100px; text-align:center; color:#242424; font-family: New Century Schoolbook, serif;
+	font-weight:normal;
+	font-size:14px; margin-top:20px;}
+#footer_top a{ color:#950000}
+#footer_top a:hover{ color:#242424}
+
+#copyright{ float:left; margin-top:20px;}
+#xpedient{ float:right; margin-top:20px;}
+#xpedient a{ color:#950000; text-decoration:none}
+#xpedient a:hover{ color:#f1820b}

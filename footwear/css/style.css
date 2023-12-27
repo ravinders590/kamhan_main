@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{ background:url(../images/bg9.png) center top repeat;
+}
+.clear{ clear:both}
+.button{ padding-left:10px; padding-right:10px; padding-top:2px; padding-bottom:2px; background:#214594; color:#FFFFFF}
+#headertop{ width:1100px; margin:0 auto; height:80px;}
+#logo a{ width:400px; height:80px; display:block; background:url(../images/logo.png) no-repeat; float:left}
+#topright{ width:600px; float:right; height:80px; display:block;}
+
+#topup{ width:190px; float:right; height:35px; display:block; background:url(../images/topupbg.png) no-repeat; padding-left:13px; padding-top:2px;}
+#topup ul{}
+#topup ul li{ list-style:none; float:left}
+#topup ul li a{ text-decoration:none; color:#214594; font-family: New Century Schoolbook, serif; font-weight:400; margin-left:5px; margin-right:5px; border-bottom:1px solid #999999}
+#topup ul li a:hover{ border-bottom:1px solid #333333; color:#214594;}
+#topdown{ width:400px; float:right; height:50px; display:block;}
+#topdown p{ font-family: New Century Schoolbook, serif; line-height:50px; width:410px;}
+
+#navigation{ width:100%; display:block; margin:0 auto; height:50px; background:url(../images/menubg.png);}
+#navigation ul{ width:1100px; margin:0 auto;}
+#navigation ul li{ float:left; list-style:none}
+#navigation ul li a{ width:134px; height:50px; color:#FFFFFF; font-family: 'Abel', sans-serif; font-size:18px; display:block; text-align:center; text-decoration:none; line-height:46px; font-weight:bold; }
+#navigation ul li a:hover{  background:url(../images/menubghover.png); color:#214594; font-weight:bold;}
+#navigation{}
+
+#slider{ width:1098px; height:260px; display:block; margin:0 auto; border:1px solid #b4b4b4; background:url(../images/trans60.png)}
+#moveslider{ width:1098px; height:495px; display:block; margin:0 auto; border:1px solid #b4b4b4; background:url(../images/trans60.png)}
+#container{ width:1100px; margin:0 auto; margin-top:10px;}
+#container h2{ font-family: New Century Schoolbook, serif; font-size:18px; border-bottom:1px solid #214594; color:#214594}
+#sidebar{ width:294px; min-height:500px; padding:5px; display:block; border:1px solid #b4b4b4; float:left; background:url(../images/trans60.png)}
+#sidebar ul{}
+#sidebar ul li{ list-style:none; background:#d6d6d6; margin-top:2px; padding-left:5px;}
+#sidebar ul li:hover{ background:#214594}
+#sidebar ul li a{ text-decoration:none; font-family: New Century Schoolbook, serif; color:#214594;}
+#sidebar ul li:hover a{ color:#FFFFFF}
+.enquiry{ height:180px; margin-top:20px;}
+.enquiry tr{}
+.enquiry tr td{ font-family: New Century Schoolbook, serif;}
+.enquiry tr td input[type=text]{ padding-top:2px; padding-bottom:2px; padding-left:2px;}
+.enquiry tr td textarea{ padding-left:2px; height:60px;}
+#content{ width:762px; min-height:490px; float:left; padding:10px; line-height:25px; font-size:17px; border:1px solid #b4b4b4; font-family: New Century Schoolbook, serif; display:block; background:url(../images/trans60.png)}
+#contenthomePage{ width:1079px; line-height:28px; min-height:500px; font-size:18px; float:left; padding:10px; border:1px solid #b4b4b4; font-family: New Century Schoolbook, serif; text-align:justify; display:block; background-color:#fff; background:url(../images/trans60.png);}
+
+.contentDiv
+{width:760px; height:auto; text-align:justify;}
+
+.productImg
+{
+	width:760px;
+	min-height:405px;
+	float:left;
+	
+}
+
+.productImg1
+{
+	width:760px;
+	min-height:305px;
+	float:left;	
+}
+
+.trpProductImg
+{
+	width:750px;
+	height:220px;
+	float:left;
+	border:0px solid #214594;
+	
+}
+
+#content span{ font-size:14px;}
+.readgray{ color:#214594;}
+.readgray:hover{ color:#333333; border-bottom:1px solid #214594}
+
+.special_manage{ width:750px;}
+.special_manage img{ width:740px;}
+
+/* Special Css */
+a{ text-decoration:none; } 
+.imageclass{ width:300px; height:200px; margin-left:220px; border:1px solid #CCCCCC; border-radius:10px;}
+.largeImgclass{ width:646px; height:390px; margin-left:46px; border:1px solid #CCCCCC; border-radius:10px;}
+#specialc{ font-family: New Century Schoolbook, serif; margin-bottom:10px; width:220px; height:200px; margin:10px;}
+.infotable{ width:768px; overflow:scroll;}
+.infotable table{}
+.infotable table tr td{ border:1px solid #CCCCCC; padding-left:2px; padding-right:2px;}
+.infotable table tr td.head{ background:#CCCCCC; color:#214594}
+/* */	
+
+
+#products{}
+.product{ width:238px; height:340px; display:block; float:left; margin:5px; border-radius:10px; text-align:center; background:url(images/trans60.png);}
+.product img{ margin-top:5px; border:0spx solid red; border-radius:10px; cursor:pointer;}
+.product h2{ border:none !Important; text-align:center; margin-top:3px;}
+.product p{ text-align:center; margin-bottom:16px; width:100%; overflow:hidden;}
+.details{ padding-left:15px; padding-right:15px; padding-top:3px; padding-bottom:3px; background:#214594; text-decoration:none; color:#FFFFFF}
+.details:hover{ background:#989898; color:#f4f4f4}
+.product:hover{-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);}
+
+
+#Allproducts{}
+.productDiv{ width:238px; height:317px; display:block; float:left; margin:5px; border-radius:10px; text-align:center; background:url(images/trans60.png);}
+.productDiv img{ margin-top:5px; border:0spx solid red; border-radius:10px; cursor:pointer; width:200px; height:200px;}
+.productDiv h2{ border:none !Important; text-align:center; margin-top:3px;}
+.productDiv p{ text-align:center; margin-bottom:16px; width:100%; overflow:hidden;}
+.productDivdetails{ padding-left:15px; padding-right:15px; padding-top:3px; padding-bottom:3px; background:#214594; text-decoration:none; color:#FFFFFF}
+.details:hover{ background:#989898; color:#f4f4f4}
+.productDiv:hover{-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);}
+
+#homepageProducts{}
+/*.homepageProduct{ width:180px; height:185px; display:block; float:left; margin:5px; text-align:center; background:url(images/trans60.png); margin-top:90px;}*/
+.homepageProduct{ width:260px; height:260px; display:block; float:left; margin:5px; text-align:center; background:url(images/trans60.png); margin-top:38px;}
+.homepageProduct img{ margin-top:5px; cursor:pointer; width:250px; height:235px; border:1px solid #666666; border-radius:7px;}
+/*.homepageProduct img{ margin-top:5px; cursor:pointer; width:183px; height:153px; border:1px solid #666666; border-radius:7px;}*/
+.product h2{ border:none !Important; text-align:center; margin-top:3px;}
+.product p{ text-align:center; margin-bottom:16px; width:100%; overflow:hidden;}
+.details{ padding-left:15px; padding-right:15px; padding-top:3px; padding-bottom:3px; background:#214594; text-decoration:none; color:#FFFFFF}
+.details:hover{ background:#989898; color:#f4f4f4}
+/*.product:hover{-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);}*/
+
+
+#footer_wrapper{ width:100%; height:261px; display:block; background:url(../images/footerbg.png) repeat-x; margin-top:10px;}
+#footer{ width:1120px; margin:0 auto;}
+.onethird{ width:264px; float:left; height:182px; padding-top:10px; margin-left:11px;}
+.onethirdMidd{ width:220px; float:left; height:172px; padding-top:10px; margin-left:10px;}
+.onethird h2{ font-family: New Century Schoolbook, serif; font-size:18px; color:#343434; margin-bottom:10px;}
+.onethird ul{}
+.onethird ul li{ list-style:none}
+.onethird ul li a{ text-decoration:none; font-family: New Century Schoolbook, serif; color:#fff; font-size:15px; font-weight:bold; border-bottom:1px solid #6e6e6e}
+.onethird ul li a:hover{ color:#214594}
+.onethird p{ font-family: New Century Schoolbook, serif; color:#3c3c3c}
+
+
+.footer_links{}
+.footer_links li{ list-style:none; float:left}
+.footer_links li a{ margin-left:10px; margin-right:10px; font-family: New Century Schoolbook, serif; text-decoration:none; border-bottom:1px solid #6e6e6e; color:#e8e8e8}
+.footer_links li a.first{ margin-left:9px;}
+.footer_links li a:hover{ color:#214594}
+
+.kamhan{ width:500px; float:left; margin-top:15px; color:#ffffff; font-family: 'Abel', sans-serif;}
+.xpedient{ width:500px; float:right; text-align:right; margin-top:-23px; color:#ffffff; font-family: 'Abel', sans-serif;}
+.xpedient a{ text-decoration:none; color:#ffffff; border-bottom:1px solid #ffffff}
+.xpedient a:hover{ color:#ffffff; border-bottom:1px solid #00000;}
